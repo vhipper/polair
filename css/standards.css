@@ -1,0 +1,127 @@
+
+
+.Standards {
+    position: absolute;
+    top: 1548px;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 1440px;
+    height: 450px;
+}
+
+.Standards-img {
+    width: 720px;
+    height: 450px;
+    background: url("../img/left.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.Standards-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 0 0 80px;
+    gap: 32px;
+    width: 720px;
+    height: 450px;
+    background: #F2F6FB;
+}
+
+.Standards-right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 16px;
+    width: 418px;
+    height: 188px;
+}
+
+.Standards-right-content-up {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 8px;
+    width: 418px;
+    height: 94px;
+}
+
+.Standards-right-content-up-p1, .Standards-right-content-up-p2 {
+    margin: 0;
+    width: 418px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 600;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.Standards-right-content-up-p1 {
+    height: 18px;
+    font-size: 13px;
+    line-height: 140%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #888888;
+}
+
+.Standards-right-content-up-p2 {
+    height: 68px;
+    font-size: 29px;
+    line-height: 116%;
+    color: #003154;
+}
+
+.Standards-right-content-text {
+    margin: 0;
+    width: 418px;
+    height: 78px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 174%;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #404040;
+}
+
+.Standards-right-link {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 4px;
+    width: 115px;
+    height: 22px;
+}
+
+.Standards-right-link:hover {
+    transform: scale(1.1);
+}
+
+.Standards-right-link-p {
+    width: 99px;
+    height: 22px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 148%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #1E1E1E;
+}
+
+.Standards-right-link-p-img {
+    width: 12px;
+    height: 19px;
+    background: url("../img/link-icon.svg") no-repeat center center;
+    background-size: 100% 100%;
+}

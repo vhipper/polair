@@ -1,0 +1,203 @@
+
+
+.News {
+    position: absolute;
+    top: 2739px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 64px 0 0 120px ;
+    gap: 32px;
+    width: 1320px;
+    height: 693px;
+}
+
+.News-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    gap: 824px;
+    width: 1200px;
+    height: 34px;
+}
+
+.News-head-text {
+    width: 282px;
+    height: 34px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 116%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #003154;
+}
+
+.News-head-link {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    gap: 4px;
+    width: 107px;
+    height: 22px;
+}
+
+.News-head-link:hover {
+    transform: scale(1.1);
+}
+
+.News-head-link-text {
+    width: 91px;
+    height: 22px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 148%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #1E1E1E;
+}
+
+.News-head-link-img {
+    width: 12px;
+    height: 19px;
+    background: url("../img/link-icon.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.News-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 24px;
+    width: 1200px;
+    height: 483px;
+}
+
+.News-row-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    isolation: isolate;
+    width: 384px;
+    height: 483px;
+    background: #F7F7F8;
+}
+
+.News-row-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 24px;
+    gap: 16px;
+    width: 384px;
+    height: 141px;
+}
+
+.News-row-card-content-head {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 6px;
+    width: 336px;
+    height: 19px;
+}
+
+.News-row-card-content-head-news {
+    margin: 0;
+    width: 51px;
+    height: 19px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 158%;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #404040;
+}
+
+.News-row-card-content-head-bull {
+    margin-top: 8px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #D0D0D0;
+}
+
+.News-row-card-content-head-data {
+    margin: 0;
+    width: 64px;
+    height: 19px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 158%;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #8F9090;
+}
+
+.News-row-card-content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 8px;
+    width: 336px;
+    height: 106px;
+}
+
+.News-row-card-content-text-1, .News-row-card-content-text-2 {
+    margin: 0;
+    width: 336px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.News-row-card-content-text-1 {
+    height: 54px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 152%;
+    color: #000103;
+}
+
+.News-row-card-content-text-2 {
+    height: 44px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 158%;
+    color: #888888;
+}
+
+.News-row-card1-img, .News-row-card2-img, .News-row-card3-img {
+    width: 384px;
+    height: 288px;
+    background-size: 100% 100%;
+    border-radius: 2px;
+}
+
+.News-row-card1-img {
+    background: url("../img/card1-news.svg")no-repeat center center;
+}
+
+.News-row-card2-img {
+    background: url("../img/card2-news.svg")no-repeat center center;
+}
+
+.News-row-card3-img {
+    background: url("../img/card3-news.svg")no-repeat center center;
+}

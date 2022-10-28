@@ -1,0 +1,308 @@
+header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    width: 1440px;
+    height: 136px;
+    background: #FFFFFF;
+}
+
+.header-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 82px;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.header-up-left {
+    position: absolute;
+    top: 24px;
+    left: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 24px;
+    width: 585px;
+    height: 34px;
+}
+
+.header-up-left-logo {
+    width: 201px;
+    height: 32px;
+    background: url("../img/Logo.svg")no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.header-up-left p {
+    width: 360px;
+    height: 34px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 158%;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #8F9090;
+}
+
+.header-up-right {
+    position: absolute;
+    top: 30px;
+    left: 1078px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    gap: 32px;
+    width: 242px;
+    height: 22px;
+}
+
+.header-up-right-mail-img, .header-up-right-mail a,
+.header-up-right-search, .header-up-right p {
+    cursor: pointer;
+}
+
+.header-up-right-search:hover, .header-up-right p:hover,
+.header-up-right-mail:hover {
+    transform: scale(1.1);
+}
+
+.header-up-right-mail {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 6px;
+    width: 132px;
+    height: 22px;
+}
+
+.header-up-right-mail-img {
+    width: 17px;
+    height: 20px;
+    background: url("../img/mail-icon.svg")no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.header-up-right-mail a, .burger-menu-e2 a  {
+    width: 109px;
+    height: 22px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 158%;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #003154;
+    text-decoration: none;
+}
+
+.header-up-right p {
+    width: 26px;
+    height: 22px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 158%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #003154;
+}
+
+.header-up-right-search {
+    width: 20px;
+    height: 20px;
+    background: url("../img/search-icon.svg")no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+
+.burger-menu {
+    width: calc(100% - 2rem);
+}
+.burger {
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+}
+.burger-menu-e2 li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    transition: .3s;
+}
+.burger-menu-e2 li:hover {
+    cursor: pointer;
+}
+.burger .burger-menu-e2.active {
+    left: 0;
+}
+.burger-menu-e2 {
+    transition: .3s;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: fixed;
+    top: 48px;
+    width: 100%;
+    left: -100%;
+}
+.burger-menu-e1 .button .line,
+.burger-menu-e1 .button .line::after,
+.burger-menu-e1 .button .line::before {
+    content: '';
+    display: block;
+    width: 20px;
+    box-sizing: border-box;
+    height: 2px;
+    background-color: #000;
+    transition: .3s;
+}
+.burger .burger-menu-e1 .button .line::before {
+    position: absolute;
+    top: 10%;
+}
+.burger .burger-menu-e1 .button .line::after {
+    position: absolute;
+    top: 75%;
+}
+.burger-menu-e1 .button.active .line {
+
+}
+.burger-menu-e1 .button.active .line::before {
+    top: 45%;
+    transform: rotate(70deg);
+}
+.burger-menu-e1 .button.active .line::after {
+    top: 45%;
+    transform: rotate(-0deg);
+}
+.button.active {
+    transform: rotate(-125deg);
+}
+.button {
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+
+}
+
+.header-down {
+    width: 1440px;
+    height: 54px;
+}
+
+.header-down-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1220px;
+    height: 54px;
+    margin-left: 110px;
+}
+
+.header-down-products a, .header-down-buy,
+.header-down-service a, .header-down-Decisions,
+.header-down-company, .header-down-Media,
+.header-down-News, .header-down-Contacts {
+    cursor: pointer;
+    height: 22px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 148%;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #1E1E1E;
+}
+
+.header-down-products:hover, .header-down-buy:hover,
+.header-down-service:hover, .header-down-Decisions:hover,
+.header-down-company:hover, .header-down-Media:hover,
+.header-down-News:hover, .header-down-Contacts:hover {
+    transform: scale(1.1);
+}
+
+.header-down-products {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 3px;
+    width: 98px;
+    height: 22px;
+}
+
+.header-down-products-img {
+    margin-top: -4px;
+    width: 12px;
+    height: 22px;
+    background: url("../img/header-icon.svg")no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.header-down-buy {
+    width: 79px;
+}
+
+.header-down-service {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 3px;
+    width: 169px;
+    height: 22px;
+}
+
+.header-down-service-img {
+    margin-top: -4px;
+    width: 12px;
+    height: 22px;
+    background: url("../img/header-icon.svg")no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.header-down-Decisions {
+    width: 67px;
+}
+
+.header-down-company {
+    width: 88px;
+}
+
+.header-down-Media {
+    width: 49px;
+}
+
+.header-down-News {
+    width: 63px;
+}
+
+.header-down-Contacts {
+    width: 71px;
+}

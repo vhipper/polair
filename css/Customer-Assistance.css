@@ -1,0 +1,221 @@
+
+.Customer-Assistance {
+    position: absolute;
+    top: 1999px;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 126px;
+    width: 1440px;
+    height: 740px;
+}
+
+.Customer-Assistance-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 282px;
+    height: 246px;
+}
+
+.Customer-Assistance-text-up {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 8px;
+    width: 282px;
+    height: 94px;
+}
+
+.Customer-Assistance-text-up-p1, .Customer-Assistance-text-up-p2, .Customer-Assistance-text-p,
+.Customer-Assistance-cards-card-text-up-p1, .Customer-Assistance-cards-card-text-up-p2{
+    font-family: 'Golos';
+    font-style: normal;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.Customer-Assistance-text-up-p1 {
+    margin: 0;
+    width: 282px;
+    height: 18px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #888888;
+}
+
+.Customer-Assistance-text-up-p2 {
+    margin: 0;
+    width: 282px;
+    height: 68px;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 116%;
+    color: #003154;
+}
+
+.Customer-Assistance-text-p {
+    margin: 0;
+    width: 282px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 174%;
+    display: flex;
+    align-items: center;
+    color: #404040;
+}
+
+.Customer-Assistance-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0;
+    gap: 24px;
+    width: 792px;
+    height: 612px;
+}
+
+.Customer-Assistance-cards-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    isolation: isolate;
+    width: 384px;
+    height: 612px;
+    background: #F2F6FB;
+    border-radius: 2px;
+}
+
+.Customer-Assistance-cards-card-text {
+    display: flex;
+    margin-top: 340px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 32px;
+    gap: 40px;
+    width: 384px;
+    height: 232px;
+}
+
+.Customer-Assistance-cards-card-text-up {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 16px;
+    width: 320px;
+    height: 146px;
+}
+
+.Customer-Assistance-cards-card-text-up-p1 {
+    margin: 0;
+    width: 320px;
+    height: 52px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 110%;
+    color: #1E1E1E;
+}
+
+.Customer-Assistance-cards-card-text-up-p2 {
+    margin: 0;
+    width: 320px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 174%;
+    display: flex;
+    align-items: center;
+    color: #404040;
+}
+
+.Customer-Assistance-cards-card1-btn {
+    width: 181px;
+    height: 46px;
+}
+
+.Customer-Assistance-cards-card1-btn:hover, .Customer-Assistance-cards-card2-btn:hover {
+    transform: scale(1.1);
+}
+
+.Customer-Assistance-cards-card1-btn-span {
+    width: 117px;
+    height: 22px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 148%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.Customer-Assistance-cards-card1-btn, .Customer-Assistance-cards-card2-btn {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 28px;
+    gap: 12px;
+    background: #003154;
+    border-radius: 2px;
+}
+
+.Customer-Assistance-cards-card2-btn {
+    width: 206px;
+    height: 46px;
+}
+
+.Customer-Assistance-cards-card2-btn-span {
+    width: 142px;
+    height: 22px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 148%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.Customer-Assistance-cards-card1-img, .Customer-Assistance-cards-card2-img {
+    width: 384px;
+    height: 308px;
+    background-size: 100% 100%;
+}
+
+.Customer-Assistance-cards-card1-img {
+    background: url("../img/card1.png") no-repeat center center;
+}
+
+.Customer-Assistance-cards-card2-img {
+    background: url("../img/card2.png")no-repeat center center;
+}
+
+.Customer-Assistance-cards-card1-top {
+    position: absolute;
+    top: 64px;
+    width: 384px;
+    height: 144px;
+    left: calc(50% - 384px/2);
+    background: #FFFFFF;
+}
+
+.Customer-Assistance-cards-card2-top {
+    position: absolute;
+    width: 384px;
+    height: 144px;
+    left: 936px;
+    top: 64px;
+    background: #FFFFFF;
+}

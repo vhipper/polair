@@ -1,0 +1,181 @@
+
+.Description {
+    position: absolute;
+    top: 1112px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    width: 1440px;
+    height: 437px;
+    background: #003154;
+}
+
+.Description-text {
+    margin-top: 80px;
+    width: 788px;
+    height: 90px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 130%;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.Description-down {
+    position: absolute;
+    top: 271px;
+    left: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0;
+    gap: 32px;
+    width: 1200px;
+    height: 86px;
+}
+
+.Description-down-div1, .Description-down-div2,
+.Description-down-div3, .Description-down-div4 {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 8px;
+    isolation: isolate;
+    height: 86px;
+}
+
+.Description-down-div1-text1, .Description-down-div2-text1,
+.Description-down-div3-text1, .Description-down-div4-text1 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: 56px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 110%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.Description-down-div1-text1 b, .Description-down-div2-text1 b,
+.Description-down-div3-text1 b, .Description-down-div4-text1 b {
+    font-size: 51px;
+}
+
+.Description-down-div1-text2, .Description-down-div2-text2,
+.Description-down-div3-text2, .Description-down-div4-text2 {
+    margin: 0;
+    height: 22px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 148%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.Description-down-div1 {
+    width: 194px;
+    align-items: center;
+}
+
+.Description-down-div1-img {
+    position: absolute;
+    top: -14px;
+    left: -47px;
+    width: 94px;
+    height: 96px;
+    z-index: -1;
+    background: url("../img/div1.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.Description-down-div1-text1 {
+    width: 194px;
+}
+
+.Description-down-div1-text2 {
+    width: 174px;
+}
+
+.Description-down-div2 {
+    width: 193px;
+    align-items: flex-start;
+}
+
+.Description-down-div2-img {
+    position: absolute;
+    left: 290px;
+    top: -8px;
+    width: 84px;
+    height: 80px;
+    z-index: -1;
+    background: url("../img/div2.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.Description-down-div2-text1 {
+    width: 163px;
+}
+
+.Description-down-div2-text2 {
+    width: 193px;
+}
+
+.Description-down-div3 {
+    width: 212px;
+    align-items: flex-start;
+}
+
+.Description-down-div3-img {
+    position: absolute;
+    left: 615px;
+    top: -8px;
+    width: 80px;
+    height: 80px;
+    z-index: -1;
+    background: url("../img/div3.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.Description-down-div3-text1 {
+    width: 197px;
+}
+
+.Description-down-div4-text2 {
+    width: 212px;
+}
+
+.Description-down-div4 {
+    width: 198px;
+    align-items: flex-start;
+}
+
+.Description-down-div4-img {
+    position: absolute;
+    left: 954px;
+    top: -1px;
+    width: 88px;
+    height: 71px;
+    z-index: -1;
+    background: url("../img/div4.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.Description-down-div4-text1 {
+    width: 93px;
+}
+
+.Description-down-div4-text2 {
+    width: 198px;
+}

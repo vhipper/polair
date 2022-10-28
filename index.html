@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- CSS -->
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/slider.css" rel="stylesheet">
+    <link href="css/products.css" rel="stylesheet">
+    <link href="css/description.css" rel="stylesheet">
+    <link href="css/standards.css" rel="stylesheet">
+    <link href="css/Customer-Assistance.css" rel="stylesheet">
+    <link href="css/news.css" rel="stylesheet">
+    <link href="css/catalog.css" rel="stylesheet">
+    <link href="css/our-brands.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/Adaptive.css" rel="stylesheet">
+
+    <!-- Slider -->
+    <script src="js/slider.js" rel="script"></script>
+
+    <script src="js/burger-menu.js" rel="script"></script>
+</head>
+<body>
+<header>
+    <div class="header-up">
+        <div class="header-up-left">
+            <div class="header-up-left-logo"></div>
+            <p>Профессиональное оборудование для предприятий общественного питания и торговли</p>
+        </div>
+        <div class="header-up-right">
+            <div class="header-up-right-mail">
+                <div class="header-up-right-mail-img"></div>
+                <a>Обратная связь</a>
+            </div>
+            <p>Eng</p>
+            <a class="header-up-right-search"></a>
+            <div class="burger">
+                <div class="burger-menu">
+                    <div class="burger-menu-e1">
+                        <div class="button" id="btn-menu" onclick="onClickMenu();">
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                    <ul class="burger-menu-e2" id="ul-menu">
+                        <li><div class="header-up-right-mail-img"></div><a href="">Обратная связь</a></li>
+                        <li><a href="">Eng</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-down">
+        <div class="header-down-div">
+            <div class="header-down-products">
+                <a class="header-down-products-a">Продукция</a>
+                <div class="header-down-products-img"></div>
+            </div>
+            <a class="header-down-buy">Где купить</a>
+            <div class="header-down-service">
+                <a class="header-down-service-a">Сервис и поддержка</a>
+                <div class="header-down-service-img"></div>
+            </div>
+            <a class="header-down-Decisions">Решения</a>
+            <a class="header-down-company">О компании</a>
+            <a class="header-down-Media">Медиа</a>
+            <a class="header-down-News">Новости</a>
+            <a class="header-down-Contacts">Контакты</a>
+        </div>
+    </div>
+</header>
+<div class="slider" data-slider="i-slider" data-loop="true" data-autoplay="true" data-interval="500000"
+     data-refresh="true" data-swipe="true">
+    <div class="slider__container">
+        <div class="slider__wrapper">
+            <div class="slider__items">
+                <div class="slider__items">
+
+                    <div class="slider__item">
+                        <div class="slider__item_content">
+                            <div class="slider__item_content-text">
+                                <div class="slider__item_content_icons">
+                                    <div class="slider__item_content_icons-temp"></div>
+                                    <div class="slider__item_content_icons-water"></div>
+                                    <div class="slider__item_content_icons-cooler"></div>
+                                    <div class="slider__item_content_icons-power"></div>
+                                </div>
+                                <p class="slider__item_content-text-1">Специальные цены на популярные модели
+                                    фармацевтических шкафов</p>
+                                <p class="slider__item_content-text-2">Снижаем цены ради высоких возможностей</p>
+                            </div>
+                            <button class="slider__item_content-btn">
+                                <span class="slider__item_content-btn-span">Подробнее</span>
+                            </button>
+                        </div>
+                        <div class="slider__item_content-bg">
+                            <div class="slider__item_content-pic"></div>
+                        </div>
+                    </div>
+
+                    <div class="slider__item">
+                        <div class="slider__item_content">
+                            <div class="slider__item_content-text">
+                                <div class="slider__item_content_icons">
+                                    <div class="slider__item_content_icons-temp"></div>
+                                    <div class="slider__item_content_icons-water"></div>
+                                    <div class="slider__item_content_icons-cooler"></div>
+                                    <div class="slider__item_content_icons-power"></div>
+                                </div>
+                                <p class="slider__item_content-text-1">Специальные цены на популярные модели
+                                    фармацевтических шкафов</p>
+                                <p class="slider__item_content-text-2">Снижаем цены ради высоких возможностей</p>
+                            </div>
+                            <button class="slider__item_content-btn">
+                                <span class="slider__item_content-btn-span">Подробнее</span>
+                            </button>
+                        </div>
+                        <div class="slider__item_content-bg">
+                            <div class="slider__item_content-pic"></div>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="slider__item_content">
+                            <div class="slider__item_content-text">
+                                <div class="slider__item_content_icons">
+                                    <div class="slider__item_content_icons-temp"></div>
+                                    <div class="slider__item_content_icons-water"></div>
+                                    <div class="slider__item_content_icons-cooler"></div>
+                                    <div class="slider__item_content_icons-power"></div>
+                                </div>
+                                <p class="slider__item_content-text-1">Специальные цены на популярные модели
+                                    фармацевтических шкафов</p>
+                                <p class="slider__item_content-text-2">Снижаем цены ради высоких возможностей</p>
+                            </div>
+                            <button class="slider__item_content-btn">
+                                <span class="slider__item_content-btn-span">Подробнее</span>
+                            </button>
+                        </div>
+                        <div class="slider__item_content-bg">
+                            <div class="slider__item_content-pic"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ol class="slider__indicators">
+        <li data-slide-to="0"></li>
+        <li data-slide-to="1"></li>
+        <li data-slide-to="2"></li>
+    </ol>
+</div>
+<div class="Products">
+    <div class="Products-left">
+        <p class="Products-left-text">Продукция</p>
+        <div class="Products-left-link">
+            <p class="Products-left-link-text">Перейти в каталог</p>
+            <div class="Products-left-link-img"></div>
+        </div>
+    </div>
+    <div class="Products-right">
+        <div class="Products-right-div">
+            <p>Решения для Dark Store</p>
+            <p>Шкафы холодильные</p>
+            <p>Шоковая заморозка</p>
+            <p>Шкафы для вызревания</p>
+        </div>
+        <div class="Products-right-div">
+            <p>Шкафы медицинские</p>
+            <p>Оборудование для пекарен</p>
+            <p>Барные столы и шкафы</p>
+            <p>Столы холодильные</p>
+        </div>
+        <div class="Products-right-div">
+            <p>Машины холодильные</p>
+            <p>Камеры холодильные</p>
+            <p>Лари морозильные</p>
+            <p>Оборудование для магазиностроения</p>
+        </div>
+        <div class="Products-right-div">
+            <p>Модульные стеллажные системы</p>
+            <p>Продуктоматы iCell</p>
+            <p>Термоконтейнеры FoodLine</p>
+        </div>
+    </div>
+</div>
+<div class="Description">
+    <p class="Description-text">Компания Polair™ —крупнейший российский производитель профессионального холодильного
+        оборудования с широким ассортиментом и покупателями более чем в 20 странах.</p>
+    <div class="Description-down">
+        <div class="Description-down-div1">
+            <div class="Description-down-div1-img"></div>
+            <p class="Description-down-div1-text1">><b>200</b> млн $</p>
+            <p class="Description-down-div1-text2">годовой оборот группы</p>
+        </div>
+        <div class="Description-down-div2">
+            <div class="Description-down-div2-img"></div>
+            <p class="Description-down-div2-text1"><b>~2 650</b></p>
+            <p class="Description-down-div2-text2">численность сотрудников</p>
+        </div>
+        <div class="Description-down-div3">
+            <div class="Description-down-div3-img"></div>
+            <p class="Description-down-div3-text1"><b>~180</b> тыс м<sup>2</sup></p>
+            <p class="Description-down-div3-text2">производственные площади</p>
+        </div>
+        <div class="Description-down-div4">
+            <div class="Description-down-div4-img"></div>
+            <p class="Description-down-div4-text1"><b>>20</b></p>
+            <p class="Description-down-div4-text2">стран в географии продаж</p>
+        </div>
+    </div>
+</div>
+
+<div class="Standards">
+    <div class="Standards-img"></div>
+    <div class="Standards-right">
+        <div class="Standards-right-content">
+            <div class="Standards-right-content-up">
+                <p class="Standards-right-content-up-p1">о группе компаний</p>
+                <p class="Standards-right-content-up-p2">Высокие стандарты качества</p>
+            </div>
+            <p class="Standards-right-content-text">Продукция Polair™ проходит 100% сквозной контроль качества и
+                использует экологичные технологии производства.</p>
+        </div>
+        <div class="Standards-right-link">
+            <p class="Standards-right-link-p">Больше о нас</p>
+            <div class="Standards-right-link-p-img"></div>
+        </div>
+    </div>
+</div>
+<div class="Customer-Assistance">
+    <div class="Customer-Assistance-text">
+        <div class="Customer-Assistance-text-up">
+            <p class="Customer-Assistance-text-up-p1">Полезные ссылки</p>
+            <p class="Customer-Assistance-text-up-p2">Помощь покупателю</p>
+        </div>
+        <p class="Customer-Assistance-text-p">Воспользуйтесь нашими конфигураторами холодильного оборудования, чтобы
+            подобрать продукт для вашего бизнеса</p>
+    </div>
+    <div class="Customer-Assistance-cards">
+        <div class="Customer-Assistance-cards-card">
+            <div class="Customer-Assistance-cards-card1-top">
+                <div class="Customer-Assistance-cards-card1-img"></div>
+            </div>
+            <div class="Customer-Assistance-cards-card-text">
+                <div class="Customer-Assistance-cards-card-text-up">
+                    <p class="Customer-Assistance-cards-card-text-up-p1">Конфигуратор холодильных столов</p>
+                    <p class="Customer-Assistance-cards-card-text-up-p2">Подбор оборудования, совмещающего функции
+                        холодильного шкафа и рабочего стола</p>
+                </div>
+                <button class="Customer-Assistance-cards-card1-btn">
+                    <span class="Customer-Assistance-cards-card1-btn-span">Подобрать стол</span>
+                </button>
+            </div>
+        </div>
+        <div class="Customer-Assistance-cards-card">
+            <div class="Customer-Assistance-cards-card2-top">
+                <div class="Customer-Assistance-cards-card2-img"></div>
+            </div>
+            <div class="Customer-Assistance-cards-card-text">
+                <div class="Customer-Assistance-cards-card-text-up">
+                    <p class="Customer-Assistance-cards-card-text-up-p1">Конфигуратор холодильных столов</p>
+                    <p class="Customer-Assistance-cards-card-text-up-p2">Подбор оборудования, совмещающего функции
+                        холодильного шкафа и рабочего стола</p>
+                </div>
+                <button class="Customer-Assistance-cards-card2-btn">
+                    <span class="Customer-Assistance-cards-card2-btn-span">Подобрать машину</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="News">
+    <div class="News-head">
+        <p class="News-head-text">Новости</p>
+        <div class="News-head-link">
+            <p class="News-head-link-text">Все новости</p>
+            <div class="News-head-link-img"></div>
+        </div>
+    </div>
+    <div class="News-row">
+        <div class="News-row-card">
+            <div class="News-row-card1-img"></div>
+            <div class="News-row-card-content">
+                <div class="News-row-card-content-head">
+                    <p class="News-row-card-content-head-news">Новости</p>
+                    <div class="News-row-card-content-head-bull"></div>
+                    <p class="News-row-card-content-head-data">10.06.2022</p>
+                </div>
+                <div class="News-row-card-content-text">
+                    <p class="News-row-card-content-text-1">Встречайте обновление фирменного стиля POLAIR</p>
+                    <p class="News-row-card-content-text-2">В новом визуальном стиле сохраняются узнаваемые элементы, но
+                        при этом он стал...</p>
+                </div>
+            </div>
+        </div>
+        <div class="News-row-card">
+            <div class="News-row-card2-img"></div>
+            <div class="News-row-card-content">
+                <div class="News-row-card-content-head">
+                    <p class="News-row-card-content-head-news">Новости</p>
+                    <div class="News-row-card-content-head-bull"></div>
+                    <p class="News-row-card-content-head-data">10.06.2022</p>
+                </div>
+                <div class="News-row-card-content-text">
+                    <p class="News-row-card-content-text-1">Polair Group представляет свой новый бренд Dazzl™</p>
+                    <p class="News-row-card-content-text-2">Представляем профессиональное холодильное оборудование для
+                        ритейла.</p>
+                </div>
+            </div>
+        </div>
+        <div class="News-row-card">
+            <div class="News-row-card3-img"></div>
+            <div class="News-row-card-content">
+                <div class="News-row-card-content-head">
+                    <p class="News-row-card-content-head-news">Новости</p>
+                    <div class="News-row-card-content-head-bull"></div>
+                    <p class="News-row-card-content-head-data">10.06.2022</p>
+                </div>
+                <div class="News-row-card-content-text">
+                    <p class="News-row-card-content-text-1">Встречайте обновление фирменного стиля POLAIR</p>
+                    <p class="News-row-card-content-text-2">В новом визуальном стиле сохраняются узнаваемые элементы, но
+                        при этом он стал...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="Catalog">
+    <div class="Catalog-content">
+        <div class="Catalog-content-text">
+            <p class="Catalog-content-text-1">Каталог оборудования Polair™ 2021/2022</p>
+            <p class="Catalog-content-text-2">Широкий ассортимент оборудования для предприятий общественного питания и
+                торговли</p>
+        </div>
+        <button class="Catalog-content-btn">
+            <span class="Catalog-content-btn-span">
+                Скачать PDF-каталог
+            </span>
+        </button>
+    </div>
+</div>
+<div class="Our-brands">
+    <p class="Our-brands-text">Наши бренды</p>
+    <div class="Our-brands-line1">
+        <div class="Our-brands-line1-card">
+            <div class="Our-brands-line1-card1-logo"></div>
+            <p class="Our-brands-line1-card1-text">
+                Лидер в производстве профессионального оборудования для торговли, общественного питания и кухни
+            </p>
+        </div>
+        <div class="Our-brands-line1-card">
+            <div class="Our-brands-line1-card2-logo"></div>
+            <p class="Our-brands-line1-card2-text">
+                Витрины для кондитерских, экспресс кофеен, гастробаров и продуктовых магазинов
+            </p>
+        </div>
+        <div class="Our-brands-line1-card">
+            <div class="Our-brands-line1-card3-logo"></div>
+            <p class="Our-brands-line1-card3-text">
+                Профессиональное холодильное оборудование для ритейла
+            </p>
+        </div>
+        <div class="Our-brands-line1-card">
+            <div class="Our-brands-line1-card4-logo"></div>
+            <p class="Our-brands-line1-card4-text">
+                Решения по хранению для медицинских учреждений и организаций
+            </p>
+        </div>
+    </div>
+    <div class="Our-brands-line2">
+        <div class="Our-brands-line2-card">
+            <div class="Our-brands-line2-card1-logo"></div>
+            <p class="Our-brands-line2-card1-text">
+                Профессиональное оборудование для кухни
+            </p>
+        </div>
+        <div class="Our-brands-line2-card">
+            <div class="Our-brands-line2-card2-logo"></div>
+            <p class="Our-brands-line2-card2-text">
+                Системы стеклянных дверей для холодильного оборудования и стеллажи для ритейла
+            </p>
+        </div>
+        <div class="Our-brands-line2-card">
+            <div class="Our-brands-line2-card3-logo"></div>
+            <p class="Our-brands-line2-card3-text">
+                Профессиональное оборудование для предприятий торговли и HoReCa
+            </p>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer-up">
+        <div class="footer-up-row">
+            <div class="footer-up-row-div1">
+                <p class="footer-up-row-div1-text">Продукция</p>
+                <div class="footer-up-row-div1-content">
+                    <p class="footer-up-row-div1-content-p">Шкафы холодильные</p>
+                    <p class="footer-up-row-div1-content-p">Столы холодильные</p>
+                    <p class="footer-up-row-div1-content-p">Камеры холодильные</p>
+                    <p class="footer-up-row-div1-content-p">Машины холодильные</p>
+                    <p class="footer-up-row-div1-content-p">Шоковая заморозка</p>
+                    <p class="footer-up-row-div1-content-p">Лари морозильные</p>
+                </div>
+            </div>
+            <div class="footer-up-row-div2">
+                <p class="footer-up-row-div2-p">Модульные стеллажные системы</p>
+                <p class="footer-up-row-div2-p">Оборудование для пекарен</p>
+                <p class="footer-up-row-div2-p">Барные столы и шкафы</p>
+                <p class="footer-up-row-div2-p">Шкафы для вызревания</p>
+                <p class="footer-up-row-div2-p">Продуктоматы iCell</p>
+                <p class="footer-up-row-div2-p">Термоконтейнеры FoodLine</p>
+                <div class="footer-up-row-div2-link">
+                    <p class="footer-up-row-div2-link-text">Шкафы медицинские</p>
+                    <div class="footer-up-row-div2-link-img"></div>
+                </div>
+            </div>
+            <div class="footer-up-row-div3">
+                <p class="footer-up-row-div3-text">Сервис и поддержка</p>
+                <div class="footer-up-row-div3-content">
+                    <p class="footer-up-row-div3-content-p">
+                        Найти авторизованный сервисный центр
+                    </p>
+                    <p class="footer-up-row-div3-content-p">
+                        Скачайте документы и рекламные материалы
+                    </p>
+                    <p class="footer-up-row-div3-content-p">
+                        Найти авторизованный сервисный центр
+                    </p>
+                    <div class="footer-up-row-div3-content-link">
+                        <p class="footer-up-row-div3-content-link-text">
+                            Сообщить о неисправности
+                        </p>
+                        <div class="footer-up-row-div3-content-link-down">
+                            <p class="footer-up-row-div3-content-link-down-text">
+                                оборудования
+                            </p>
+                            <div class="footer-up-row-div3-content-link-down-img"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-up-row-div4">
+                <p class="footer-up-row-div4-p">Где купить</p>
+                <p class="footer-up-row-div4-p">Решения</p>
+                <p class="footer-up-row-div4-p">О компании</p>
+                <p class="footer-up-row-div4-p">Медиа</p>
+                <p class="footer-up-row-div4-p">Новости</p>
+                <p class="footer-up-row-div4-p">Контакты</p>
+            </div>
+        </div>
+        <hr class="footer-up-row-hr"/>
+        <div class="footer-up-item">
+            <p class="footer-up-item-p1">Подбор холодильного стола Polair™</p>
+            <p class="footer-up-item-p2">Подбор холодильной машины Polair™</p>
+        </div>
+    </div>
+    <hr class="footer-hr"/>
+    <div class="footer-down">
+        <div class="footer-down-up">
+            <div class="footer-down-up-logo"></div>
+            <div class="footer-down-up-contacts">
+                <div class="footer-down-up-contacts-tel">
+                    <p class="footer-down-up-contacts-tel-p1">+7 (495) 937-64-07</p>
+                    <p class="footer-down-up-contacts-tel-p2"> многоканальный</p>
+                </div>
+                <div class="footer-down-up-contacts-social">
+                    <div class="footer-down-up-contacts-social-vk"></div>
+                    <div class="footer-down-up-contacts-social-telegram"></div>
+                    <div class="footer-down-up-contacts-social-youtube"></div>
+                    <div class="footer-down-up-contacts-social-pinterest"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-down-center">
+            <p class="footer-down-center-p1">© АО «Полаир-Недвижимость» 2022</p>
+            <p class="footer-down-center-p2">119334, город Москва, Ленинский проспект, дом 37, корпус 1, помещение 2-5, этаж 4</p>
+        </div>
+        <div class="footer-down-down">
+            <div class="footer-down-down-left">
+                <p class="footer-down-down-left-p1">Сделано в <b>CULT</b></p>
+                <p class="footer-down-down-left-p2">Политика конфиденциальности</p>
+                <p class="footer-down-down-left-p3">Карта сайта</p>
+            </div>
+            <div class="footer-down-down-right">
+                <p class="footer-down-down-right-p1">При использовании материалов сайта ссылка обязательна.</p>
+                <p class="footer-down-down-right-p2">Данный интернет-сайт носит исключительно информационный характер, и информация, размещённая на нём,
+                    неявляется публичной офертой, определяемой положениями ст. 437 ГК РФ.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

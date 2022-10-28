@@ -1,0 +1,160 @@
+
+
+.Our-brands-line1-card1-text, .Our-brands-line1-card2-text,
+.Our-brands-line1-card3-text, .Our-brands-line1-card4-text,
+.Our-brands-line2-card1-text, .Our-brands-line2-card2-text,
+.Our-brands-line2-card3-text {
+    margin: 0;
+    width: 242px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 158%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #888888;
+}
+
+.Our-brands {
+    position: absolute;
+    top: 3990px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 64px 0 0 120px;
+    gap: 40px;
+    width: 1220px;
+    height: 508px;
+    background: #FFFFFF;
+}
+
+.Our-brands-text {
+    width: 1200px;
+    height: 34px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 116%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #003154;
+}
+
+.Our-brands-line1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 24px;
+    width: 1200px;
+    height: 144px;
+}
+
+.Our-brands-line1-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 24px 0 16px;
+    gap: 8px;
+    width: 282px;
+    height: 144px;
+    border-left: 1px solid #E1E1E1;
+}
+
+.Our-brands-line1-card1-text {
+    height: 88px;
+}
+
+.Our-brands-line1-card2-text, .Our-brands-line1-card4-text,
+.Our-brands-line2-card1-text, .Our-brands-line2-card1-text  {
+    height: 66px;
+}
+
+.Our-brands-line1-card3-text, .Our-brands-line2-card1-text {
+    height: 44px;
+}
+.Our-brands-line2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 24px;
+    width: 894px;
+    height: 122px;
+}
+
+.Our-brands-line2-card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 24px 0 16px;
+    gap: 8px;
+    width: 282px;
+    height: 122px;
+    border-left: 1px solid #E1E1E1;
+}
+
+.Our-brands-line1-card1-logo {
+    margin-top: 7px;
+    margin-bottom: 8px;
+    width: 104px;
+    height: 34px;
+    background: url("../img/logo1.svg")no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.Our-brands-line1-card2-logo {
+    margin-top: 13px;
+    margin-bottom: 21px;
+    width: 159px;
+    height: 22px;
+    background: url("../img/logo2.svg")no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.Our-brands-line1-card3-logo {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    width: 125px;
+    height: 24px;
+    background: url("../img/logo3.svg")no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.Our-brands-line1-card4-logo {
+    margin-top: 13px;
+    margin-bottom: 21px;
+    width: 163px;
+    height: 22px;
+    background: url("../img/logo4.svg")no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.Our-brands-line2-card1-logo {
+    margin-bottom: 19px;
+    margin-top: 11px;
+    width: 113px;
+    height: 26px;
+    background: url("../img/logo5.svg")no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.Our-brands-line2-card2-logo {
+    margin-top: 11px;
+    margin-bottom: 8px;
+    width: 131px;
+    height: 26px;
+    background: url("../img/logo6.svg")no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.Our-brands-line2-card3-logo {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    width: 127px;
+    height: 32px;
+    background: url("../img/logo7.svg")no-repeat center center;
+    background-size: 100% 100%;
+}
